@@ -21,14 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.propertycapsule.com/')
 
-WebUI.click(findTestObject('Object Repository/EnterpriseLogin/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/a_Enterprise Admin Login'))
+WebUI.click(findTestObject('Object Repository/DealMaker/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/a_Deal Maker SignupLogin'))
 
-WebUI.setText(findTestObject('Object Repository/EnterpriseLogin/Page_Property Capsule/input_Login (Email)_username'), 'maturinahanth@gmail.com')
+WebUI.click(findTestObject('Object Repository/DealMaker/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div_Continue with Linkedin'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/EnterpriseLogin/Page_Property Capsule/input_Password_password'), 
-    'f6TUUTeWxgTaoyrHVqm9jg==')
+WebUI.setText(findTestObject('Object Repository/DealMaker/Page_LinkedIn Login, Sign in  LinkedIn/input_Welcome Back_session_key'), 
+    'maturinahanth@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/EnterpriseLogin/Page_Property Capsule/input_Password_big-btn'))
+WebUI.setEncryptedText(findTestObject('Object Repository/DealMaker/Page_LinkedIn Login, Sign in  LinkedIn/input_Welcome Back_session_password'), 
+    'ZaVLiWGQDFQ2KmhtRMEzLA==')
+
+WebUI.click(findTestObject('Object Repository/DealMaker/Page_LinkedIn Login, Sign in  LinkedIn/button_Sign in'))
+
+WebUI.click(findTestObject('Object Repository/DealMaker/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/img'))
+
+WebUI.click(findTestObject('Object Repository/DealMaker/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div_Logout'))
 
 WebUI.closeBrowser()
 

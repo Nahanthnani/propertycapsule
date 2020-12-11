@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>1606f775-05ae-42b9-972d-84fe071e2d97</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://maps.propertycapsule.com/api/user/photo/download?id=4656083')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.profile-img-container > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://maps.propertycapsule.com/api/user/photo/download?id=4656083</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;satellite intercom sidebar-theme-mode property-cluster-layers-active retailer-layers-active custom-pins-active zoom-11&quot;]/app-root[@class=&quot;no-touch&quot;]/app-marqetmap-app[1]/app-header[1]/div[@class=&quot;header-right-section&quot;]/div[@class=&quot;user-area logged-in&quot;]/div[@class=&quot;logged-in-user&quot;]/div[@class=&quot;profile-img-container&quot;]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://maps.propertycapsule.com/api/user/photo/download?id=4656083')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>
